@@ -1,0 +1,20 @@
+{
+  "name": "domnia",
+  "version": "1.0.0",
+  "description": "لعبة دومينو أونلاين يمكن لـ 4 أشخاص لعبها مع ميزات الصوت والمحادثة.",
+  "main": "basic-server.js",
+  "scripts": {
+    "start": "node basic-server.js",
+    "dev": "node basic-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
